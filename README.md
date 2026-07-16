@@ -9,7 +9,7 @@ trên Render** (đăng nhập Render bằng tài khoản GitHub).
 Sau khi deploy xong, mở URL Render cấp cho bạn để dùng giao diện demo (`/`), hoặc `/docs`
 để xem Swagger UI và gọi thử từng endpoint.
 
-## ⚠️ BƯỚC BẮT BUỘC TRƯỚC KHI DEPLOY: thêm file mô hình vào `models/`
+##  BƯỚC BẮT BUỘC TRƯỚC KHI DEPLOY: thêm file mô hình vào `models/`
 
 Repo này **không tự huấn luyện lại** mô hình — nó chỉ nạp các file `.pkl`/`.json` đã được
 huấn luyện sẵn. Vì Render đọc code trực tiếp từ GitHub (không có nút "kéo-thả upload" như
