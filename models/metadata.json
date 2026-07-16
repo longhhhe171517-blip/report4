@@ -1,0 +1,68 @@
+{
+  "EV_FEATURES": [
+    "CarAge",
+    "Mileage(km)",
+    "Horsepower",
+    "Torque",
+    "Doors",
+    "Seats",
+    "NumOptions",
+    "Condition",
+    "Transmission",
+    "DriveType",
+    "BodyType",
+    "Brand",
+    "AccidentHistory",
+    "Insurance",
+    "RegistrationStatus",
+    "City"
+  ],
+  "GAS_FEATURES": [
+    "CarAge",
+    "Mileage(km)",
+    "EngineSize(L)",
+    "Horsepower",
+    "Torque",
+    "FuelEfficiency(L/100km)",
+    "Doors",
+    "Seats",
+    "NumOptions",
+    "Condition",
+    "Transmission",
+    "DriveType",
+    "BodyType",
+    "Brand",
+    "AccidentHistory",
+    "Insurance",
+    "RegistrationStatus",
+    "City"
+  ],
+  "BEV_FEATURES": [
+    "Motor (kW)",
+    "Range (km)",
+    "Recharge time (h)",
+    "Vehicle class",
+    "Model year"
+  ],
+  "GASFUEL_FEATURES": [
+    "Engine size (L)",
+    "Cylinders",
+    "Fuel type",
+    "Vehicle class",
+    "Smog rating"
+  ],
+  "ASSUMPTIONS": {
+    "electricity_price_usd_per_kwh": 0.15,
+    "gasoline_price_usd_per_l": 0.93,
+    "annual_km": 15000,
+    "ownership_years": 5
+  },
+  "depreciation_rate": {
+    "ev": 0.11111158899619378,
+    "gas": 0.1112615466678527
+  },
+  "median_energy_consumption": {
+    "ev_kwh_100km": 18.5,
+    "gas_l_100km": 8.2
+  }
+}
