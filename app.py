@@ -208,7 +208,7 @@ def predict_tco(payload: TcoInput):
     price_future = float(model.predict(row_future)[0])
 
     depreciation_loss = max(price_now - price_future, 0.0)
-    annual_mileage = metadata["ASSUMPTIONS"]["ANNUAL_MILEAGE_KM"]
+    annual_mileage = metadata["ASSUMPTIONS"]["annual_km"]
     annual_energy_cost = (median_energy_100km / 100) * annual_mileage * price_per_unit
     total_energy_cost = annual_energy_cost * payload.ownership_years
     tco = depreciation_loss + total_energy_cost
